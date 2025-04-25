@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply text-gray-800 font-sans;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display;
+  }
+}
+
+@layer utilities {
+  .font-display {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .font-sans {
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+}
+
+.bg-navy {
+  @apply bg-[#0F172A];
+}
+
+.bg-navy-light {
+  @apply bg-[#1E293B];
+}
+
+.text-navy {
+  @apply text-[#0F172A];
+}
+
+.bg-amber {
+  @apply bg-[#F59E0B];
+}
+
+.text-amber {
+  @apply text-[#F59E0B];
+}
+
+.text-silver {
+  @apply text-[#94A3B8];
+}
