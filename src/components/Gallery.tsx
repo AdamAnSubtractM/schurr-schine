@@ -4,15 +4,15 @@ import BeforeAfterSlider from "./BeforeAfterSlider";
 const galleryItems = [
   {
     id: 1,
-    beforeImage: "/src/assets/before-1.jpg",
-    afterImage: "/src/assets/after-1.jpg",
+    beforeImage: "/assets/before-1.jpg",
+    afterImage: "/assets/after-1.jpg",
     altText: "Vehicle 1 restoration",
     title: "Vehicle 1 Description",
   },
   {
     id: 2,
-    beforeImage: "/src/assets/before-2.jpg",
-    afterImage: "/src/assets/after-2.jpg",
+    beforeImage: "/assets/before-2.jpg",
+    afterImage: "/assets/after-2.jpg",
     altText: "Vehicle 2 restoration",
     title: "Vehicle 2 Description",
   },

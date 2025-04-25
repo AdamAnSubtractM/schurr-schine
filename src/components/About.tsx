@@ -16,7 +16,7 @@ const About: React.FC = () => {
           <div>
             <div className="relative">
               <img
-                src="/src/assets/logo.png"
+                src="/assets/logo.png"
                 alt="SchurrShine Logo"
                 className="w-full rounded-lg shadow-lg"
               />
